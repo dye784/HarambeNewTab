@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Good night Sweet Prince",
+  "description": "This extensions shows a picture of Harambe on a new tab.", // change description
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png", // icon for extension
+    "default_title": "Click here!" // Shows up on mouse hover
+  },
+  "chrome_url_overrides" : {
+    "newtab": "newTab.html" // overrides new tab and replaces with mine
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}

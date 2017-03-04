@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    background-image: url('./harambe.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*Good way for responsiveness and mobile devices it passes down till the condition is true.*/
+/*Probably still safer using a min hieght through*/
+
+/*
+@media screen and (max-height:700px) {
+    body {
+        font-size: 95%
+    }
+}
+
+@media screen and (max-height:650px) {
+    body {
+        font-size: 90%
+    }
+    #focuses .delete {
+        margin-top: 9px
+    }
+}
+
+@media screen and (max-height:600px) {
+    #center,
+    #center-below,
+    body {
+        font-size: 90%
+    }
+    #center-below {
+        top: 71.5%
+    }
+    #focuses .delete {
+        margin-top: 8px
+    }
+}
+
+@media screen and (max-height:550px) {
+    #center,
+    #center-below {
+        font-size: 80%
+    }
+    #center-below {
+        top: 70.5%
+    }
+}
+
+@media screen and (max-height:400px) {
+    #center {
+        top: 30%
+    }
+    #centerclock {
+        display: none!important
+    }
+    #center-below {
+        top: 52%
+    }
+}
+*/
