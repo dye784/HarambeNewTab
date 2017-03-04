@@ -1,6 +1,6 @@
 # Harambe New Tab
 
-Chrome extension I made when I first started Fullstack Academy.
+A Chrome extension I made one morning when I first started Fullstack Academy. First learning experience learning to build chrome extensions.
 
 Whenever a new tab is opened we have this photo open up instead :
 
